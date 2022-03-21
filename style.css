@@ -1,4 +1,5 @@
-.header > div {
+.header > div,
+.row-of-pics {
     padding: 0px 80px;
 }
 
@@ -16,4 +17,26 @@ ul {
 
 .header-content {
     display: flex;
+    justify-content: space-around;
+}
+
+.information {
+    text-align: center;
+}
+
+.row-of-pics {
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 0px;
+}
+
+.row-img {
+    width: 200px;
 }
