@@ -34,9 +34,17 @@ ul {
     flex-direction: column;
     align-items: center;
     width: 200px;
-    padding: 0px;
 }
 
 .row-img {
     width: 200px;
+}
+
+.quote {
+    text-align: justify;
+    padding: 160px;
+}
+
+.quote-signature {
+   text-align: right;
 }
