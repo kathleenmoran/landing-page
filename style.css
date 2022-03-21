@@ -48,3 +48,14 @@ ul {
 .quote-signature {
    text-align: right;
 }
+
+.inner-banner {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px;
+    justify-items: center;
+}
+
+.sign-up-btn-2 {
+    height: 40px;
+}
