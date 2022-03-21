@@ -1,12 +1,19 @@
+.header > div {
+    padding: 0px 80px;
+}
+
 .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 80px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+}
+
+.header-content {
+    display: flex;
 }
