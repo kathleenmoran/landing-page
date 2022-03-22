@@ -54,7 +54,10 @@ ul {
     gap: 20px;
 }
 
-.header-container {
+.header-container,
+.quote-text,
+.inner-banner
+ {
     max-width: 1000px;
 }
 
@@ -70,13 +73,24 @@ ul {
     padding: 75px 0px;
 }
 
+.header-img {
+    width: 400px;
+    border: 2px solid #E5E7EB;
+}
+
+.header-img,
+button,
+.banner-container,
+.row-img {
+    border-radius: 6px;
+}
+
 .subtitle {
     margin-bottom: 10px;
 }
 
 button,
 .banner-container {
-    border-radius: 6px;
     border: none;
     background-color: #3882F6;
 }
@@ -106,6 +120,7 @@ h2,
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 40px;
 }
 
 .pic {
@@ -117,10 +132,9 @@ h2,
 
 .row-img {
     width: 200px;
-}
-
-.quote-text {
-    max-width: 1000px;
+    height: 150px;
+    margin: 20px 0px;
+    border-radius: 6px;
 }
 
 .quote {
@@ -148,7 +162,6 @@ h2,
 }
 
 .inner-banner {
-    max-width: 1000px;
     flex: 1;
 }
 
