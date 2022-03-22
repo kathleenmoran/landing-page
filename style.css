@@ -4,6 +4,7 @@ body {
 
 body,
 h1,
+h2,
 h3,
 p {
     margin: 0px;
@@ -21,7 +22,7 @@ p {
 
 h1,
 .logo,
-.inner-banner {
+.banner {
     color: #F9FAF8;
 }
 
@@ -29,11 +30,6 @@ h1 {
     font-size: 48px;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
-}
 .logo {
     font-size: 24px;
 }
@@ -79,7 +75,7 @@ ul {
 }
 
 button,
-.inner-banner {
+.banner-container {
     border-radius: 6px;
     border: none;
     background-color: #3882F6;
@@ -91,6 +87,7 @@ button {
 
 .information {
     text-align: center;
+    padding: 75px 0px;
 }
 
 h2,
@@ -121,14 +118,20 @@ h2,
     width: 200px;
 }
 
+.quote-text {
+    max-width: 1000px;
+}
+
 .quote {
     text-align: justify;
-    padding: 100px;
+    padding: 75px;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-signature {
@@ -137,14 +140,25 @@ h2,
    font-weight: bold;
 }
 
-.inner-banner {
+.banner {
     display: flex;
-    justify-content: space-around;
-    margin: 80px 120px;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-banner {
+    max-width: 1000px;
+    flex: 1;
+}
+
+.banner-container {
+    display: flex;
+    margin: 80px 0px;
     background-color: #3882F6;
     border: none;
+    gap: 20px;
     padding: 40px;
+    justify-content: space-between;
 }
 
 .sign-up-btn-2 {
