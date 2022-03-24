@@ -72,10 +72,12 @@ ul {
     justify-content: space-between;
     padding: 75px 0px;
     gap: 10px;
+    align-items: center;
 }
 
 .header-img {
-    width: 400px;
+    max-width: 100%;
+    height: auto;
     border: 2px solid #E5E7EB;
 }
 
