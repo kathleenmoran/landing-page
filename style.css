@@ -40,7 +40,7 @@ h1 {
     justify-content: space-between;
 }
 
-.links,
+a,
 .subtitle,
 button,
 .footer {
@@ -52,6 +52,10 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header-container,
